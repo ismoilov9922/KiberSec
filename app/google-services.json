@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "686346558128",
+    "firebase_url": "https://kiber-xafsizlik-default-rtdb.firebaseio.com",
+    "project_id": "kiber-xafsizlik",
+    "storage_bucket": "kiber-xafsizlik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686346558128:android:7b0512e7ab700d1100b975",
+        "android_client_info": {
+          "package_name": "com.example.kiber_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686346558128-foem6a0v14k35cjniq2vh10p0j08st8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjVjfQ2EqwQEh7n9pMVWgeF3jgZeZ2UaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686346558128-foem6a0v14k35cjniq2vh10p0j08st8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686346558128:android:2f8ca46cd78c54c300b975",
+        "android_client_info": {
+          "package_name": "com.example.kiberxafsizlik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686346558128-foem6a0v14k35cjniq2vh10p0j08st8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjVjfQ2EqwQEh7n9pMVWgeF3jgZeZ2UaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686346558128-foem6a0v14k35cjniq2vh10p0j08st8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686346558128:android:a6a7876b8c177e8000b975",
+        "android_client_info": {
+          "package_name": "uz.roboticslab.kibersec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686346558128-foem6a0v14k35cjniq2vh10p0j08st8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjVjfQ2EqwQEh7n9pMVWgeF3jgZeZ2UaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686346558128-foem6a0v14k35cjniq2vh10p0j08st8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

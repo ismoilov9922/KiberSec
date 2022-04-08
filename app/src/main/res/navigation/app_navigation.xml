@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.roboticslab.kibersec.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/descriptionFragment"
+        android:name="uz.roboticslab.kibersec.ui.description.DescriptionFragment"
+        android:label="fragment_description"
+        tools:layout="@layout/fragment_description" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="uz.roboticslab.kibersec.ui.setting.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="uz.roboticslab.kibersec.ui.home.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="uz.roboticslab.kibersec.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
+    <fragment
+        android:id="@+id/lessonFragment"
+        android:name="uz.roboticslab.kibersec.ui.lesson.LessonFragment"
+        android:label="fragment_lesson"
+        tools:layout="@layout/fragment_lesson" />
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="uz.roboticslab.kibersec.ui.test.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
+    <fragment
+        android:id="@+id/successFragment"
+        android:name="uz.roboticslab.kibersec.ui.test.SuccessFragment"
+        android:label="fragment_success"
+        tools:layout="@layout/fragment_success" />
+    <fragment
+        android:id="@+id/proFragment"
+        android:name="uz.roboticslab.kibersec.ui.pro.ProFragment"
+        android:label="fragment_pro"
+        tools:layout="@layout/fragment_pro" />
+    <fragment
+        android:id="@+id/clickFragment"
+        android:name="uz.roboticslab.kibersec.ui.click.ClickFragment"
+        android:label="fragment_click"
+        tools:layout="@layout/fragment_click" />
+    <fragment
+        android:id="@+id/followFragment"
+        android:name="uz.roboticslab.kibersec.ui.FollowFragment"
+        android:label="fragment_follow"
+        tools:layout="@layout/fragment_follow" />
+
+</navigation>

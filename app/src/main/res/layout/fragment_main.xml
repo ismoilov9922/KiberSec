@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_vertical"
+    android:background="@color/backgroundColor"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.home.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lessonRv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/blue"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/data" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/sertificat_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@color/gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Pulli xizmatlar"
+                android:textColor="@color/text_color"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@color/gray" />
+        </LinearLayout>
+
+        <pl.pzienowicz.autoscrollviewpager.AutoScrollViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="30dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/subscribe_pro"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/continue_btn"
+            android:text="Pulliga A'zo bo'lish"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
